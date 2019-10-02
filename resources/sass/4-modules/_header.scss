@@ -1,0 +1,14 @@
+// Header styles go here
+// ************************
+
+.header {
+    background-color: $c-prim;
+    padding: 8px 0;
+    color: $c-white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

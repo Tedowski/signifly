@@ -1,0 +1,44 @@
+// media styles - videos, images
+// ******************************
+
+$round_img__dim-s: 24px;
+$round_img__dim-m: 48px;
+$round_img__dim-l: 72px;
+
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.iframe-respo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.img-circ {
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.circ-s {
+    width: $round_img__dim-s;
+    height: $round_img__dim-s;
+  }
+
+  &.circ-m {
+    width: $round_img__dim-m;
+    height: $round_img__dim-m;
+  }
+
+  &.circ-l {
+    width: $round_img__dim-l;
+    height: $round_img__dim-l;
+  }
+}
